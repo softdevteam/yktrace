@@ -4,7 +4,7 @@ set -e
 
 # First we have to build ykrustc, complete with cargo and rustfmt.
 ykrustc_prefix=`pwd`/ykrustc-inst
-ykrustc_version=yk-yktrace-integration
+ykrustc_version=master
 
 if ! [ -d ykrustc ]; then
     git clone https://github.com/softdevteam/ykrustc
